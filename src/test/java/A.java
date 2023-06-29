@@ -56,7 +56,7 @@ WebElement logout= driver.findElement(By.xpath("//img[@src='themes/softed/images
 
 Actions as=new Actions(driver);
 as.moveToElement(logout).perform();
-systemm.out.println("Hi ra gundu This is Your boss")
+System.out.println("Hi all");
 Thread.sleep(3000);
 	
 }
